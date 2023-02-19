@@ -1,0 +1,128 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    color: #f0ed3a;
+    font-family:  Geneva, Tahoma, serif;
+}
+body{
+    position: relative;
+}
+.header H1{  
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* text-align: center;  */
+    display: inline-block;
+    font-weight: bolder;
+    padding-left: 1em;
+}
+
+#profileImg{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    height: 150px;
+    border: 5px solid #f0ed3a;
+    border-radius: 100%;
+    text-align: center;
+}
+#profileImg:hover{
+    height: 160px;
+}
+.link{
+    text-decoration: none;
+    color: #ff0000;
+}
+.linknav{
+    float: right;
+    height: 2em;
+    width: 8.6vw;
+    line-height: 2em;
+    /* padding: .2em; */
+    margin-top: -2.6em;
+    margin-left: -0.35em;
+    vertical-align:middle;
+    border-top: 5px solid #f0ed3a;
+    border-bottom: 5px solid #f0ed3a;
+    border-left: 5px solid #f0ed3a;
+    text-align: center;
+    text-transform: uppercase;
+}
+.linknav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.linknav:hover{
+    font-weight: bold;
+}
+.linknav a{
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30vh;
+    background-color: #0d1cf0;
+    border: 5px solid #f0ed3a;
+    opacity: .3;
+}
+.header .asideHeader{
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    padding-left: 1em;
+
+}
+.main{
+    display: block;
+    margin-top: 30vh;
+    padding: 1.3em;
+    border-left: 5px solid #f0ed3a;
+    border-right: 5px solid #f0ed3a;
+    background-color: #0d1cf0;   
+}
+
+.mainAside{
+    border: 5px solid #f0ed3a;
+    width: 30vw;
+    height: 70vh;
+    float: left;
+    margin-right: 1.5em;
+    margin-left: -1.3em;
+    margin-top: -.8em;
+
+}
+.mainAside::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.bookmark_btn{
+	position: fixed;
+	bottom: 0; right: .2em;
+	font-size: 3em;
+}
+.footer{
+    border: 5px solid #f0ed3a;
+    height: 15vh;
+    background-color: #0d1cf0;
+}
+.footer a{
+    float: left;
+    border: 1px solid #f0ed3a;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    vertical-align: middle;
+    text-align: center;
+    /* margin-left: 12em; */
+}
+.footer a::after{
+    content: "";
+    clear: both;
+}
